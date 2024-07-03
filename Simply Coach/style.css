@@ -1,0 +1,30 @@
+h1, .container-fluid, .header-content {
+  background-color: #000000;
+  margin: 0px !important;
+}
+
+.radient-backgroud {
+  background: linear-gradient(to bottom, #000000, #FFFFFF), linear-gradient(to right, #3DBEBF, #E2834B); /* Left to right */
+  /* Blend the gradients together */
+  background-blend-mode: multiply;
+}
+
+.radient-heading {
+  background: linear-gradient(to right, #3DBEBF, #e46318);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.image-fluid {
+  width: 80px;
+  height: 80px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.logo-image {
+  height: 40px;
+  width: 40px;
+}/*# sourceMappingURL=style.css.map */
